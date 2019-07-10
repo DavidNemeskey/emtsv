@@ -15,7 +15,8 @@
 	url = https://github.com/vadno/emmorph2ud.git
 [submodule "emtokenpy"]
 	path = emtokenpy
-	url = https://github.com/dlt-rilmta/emtokenpy.git
+	url = https://github.com/DavidNemeskey/emtokenpy.git
+	branch = quntoken_v1
 [submodule "emconspy"]
 	path = emconspy
 	url = https://github.com/dlt-rilmta/emconspy.git
