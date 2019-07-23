@@ -25,7 +25,8 @@
 	url = https://github.com/vadno/emconll.git
 [submodule "xtsv"]
 	path = xtsv
-	url = https://github.com/dlt-rilmta/xtsv.git
+	url = https://github.com/DavidNemeskey/xtsv.git
+	branch = hash_mark_fix
 [submodule "emdummy"]
 	path = emdummy
 	url = https://github.com/dlt-rilmta/emdummy.git
