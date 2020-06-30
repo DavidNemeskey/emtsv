@@ -4,7 +4,7 @@
 """Python wrapper for quntoken.
 """
 
-from quntoken import tokenize
+from .quntoken.quntoken import tokenize
 
 
 class EmTokenPy:
@@ -24,10 +24,10 @@ class EmTokenPy:
 
     @staticmethod
     def process_sentence(sen, _=None):
-        res = tokenize(sen)
+        cmd = ['preproc', 'snt', 'sntcorr', 'sntcorr', 'token', 'convtsv']
+        res = tokenize(cmd, sen)
         return res
 
     @staticmethod
     def prepare_fields(field_names):
         return field_names
-
